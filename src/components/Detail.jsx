@@ -17,7 +17,7 @@ const Detail = () => {
         <>
             <div className="container mx-auto mt-5">
                 <div className="my-5">
-                    <Link to="/user" className="bg-black text-white px-3 py-2 rounded">Back</Link>
+                    <Link to="/" className="bg-black text-white px-3 py-2 rounded">Back</Link>
                 </div>
                 <div className="border my-5 p-5 shadow-md rounded">
                     <img src={post.url} className="rounded mb-3" />
